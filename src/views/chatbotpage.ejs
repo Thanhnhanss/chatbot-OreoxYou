@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="DJoz Template">
+  <meta name="keywords" content="DJoz, unica, creative, html">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>OreoxYou chatbot</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Css Styles -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/barfiller.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/nowfont.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/rockville.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/slicknav.min.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+</head>
+
+<body>
+  <!-- Page Preloder -->
+  <div id="preloder">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Header Section Begin -->
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-md-2">
+          <div class="header__logo">
+            <a href="./index.html"><img src="assets/img/logo.png" alt=""></a>
+          </div>
+        </div>
+        <div class="col-lg-10 col-md-10">
+          <div class="header__nav">
+            <nav class="header__menu mobile-menu">
+              <ul>
+                <li class="active"><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./discography.html">Discography</a></li>
+                <li><a href="./tours.html">Tours</a></li>
+                <li><a href="./videos.html">Videos</a></li>
+                <li><a href="#">Pages</a>
+                  <ul class="dropdown">
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./blog-details.html">Blog Details</a></li>
+                  </ul>
+                </li>
+                <li><a href="./contact.html">Contact</a></li>
+              </ul>
+            </nav>
+            <div class="header__right__social">
+              <a href="#"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+              <a href="#"><i class="fa fa-dribbble"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="mobile-menu-wrap"></div>
+    </div>
+  </header>
+  <!-- Header Section End -->
+
+  <!-- Hero Section Begin -->
+  <section class="hero spad set-bg" data-setbg="assets/img/016.png">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="hero__text">
+            <span>ChatBot New Generation</span>
+            <h1>OreoxYou</h1>
+            <p> OreoxYou is a messenger bot that allows you to chat with someone random. Simply send a message to this
+              page, and we'll get you started!</p>
+            <a href="https://www.youtube.com/watch?v=K4DyBUG242c" class="play-btn video-popup"><i
+                class="fa fa-play"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="linear__icon">
+      <i class="fa fa-angle-double-down"></i>
+    </div>
+  </section>
+  <!-- Hero Section End -->
+
+  <!-- About Section Begin -->
+  <section class="about spad">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="about__pic">
+            <img src="assets/img/n2.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="about__text">
+            <div class="section-title">
+              <h2>Chatbot OreoxYou</h2>
+              <h1>About me</h1>
+            </div>
+            <p>DOreoxYou is a messenger bot that allows you to chat with someone random. Simply send a message to this
+              page, and we'll get you started</p>
+            <a href="#" class="primary-btn">CONTACT ME</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Section End -->
+
+
+  <!-- Js Plugins -->
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/jquery.nicescroll.min.js"></script>
+  <script src="assets/js/jquery.barfiller.js"></script>
+  <script src="assets/js/jquery.countdown.min.js"></script>
+  <script src="assets/js/jquery.slicknav.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <!-- Music Plugin -->
+  <script src="assets/js/jquery.jplayer.min.js"></script>
+  <script src="assets/js/jplayerInit.js"></script>
+
+  <!-------------------------------------------------------------------------------->
+  <!-- <form method="POST" action="/setup-profile">
+    <button type="submit">Setup profile</button>
+
+  </form>
+
+  <br />
+
+  <form method="POST" action="/setup-persistent-menu">
+    <button type="submit">Setup presistent menu </button>
+
+  </form> -->
+
+
+  <!-- Messenger Chat Plugin Code -->
+  <div id="fb-root"></div>
+
+  <!-- Your Chat Plugin code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
+
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "107216455034334");
+    chatbox.setAttribute("attribution", "biz_inbox");
+
+    window.fbAsyncInit = function () {
+      FB.init({
+        xfbml: true,
+        version: 'v11.0'
+      });
+    };
+
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <!-------------------------------------------------------------------------------->
+</body>
+
+</html>
